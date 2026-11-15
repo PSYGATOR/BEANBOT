@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <RootNamespace>BeanBot.Accounts</RootNamespace>
+    <AssemblyName>BeanBot.Accounts</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BeanBot.Transport\BeanBot.Transport.csproj" />
+    <ProjectReference Include="..\BeanBot.Observability\BeanBot.Observability.csproj" />
+    <PackageReference Include="BouncyCastle.Cryptography" Version="2.5.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="8.0.0" />
+  </ItemGroup>
+</Project>

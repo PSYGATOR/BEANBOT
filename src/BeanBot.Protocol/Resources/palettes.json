@@ -1,0 +1,39 @@
+{
+  "palette": [
+    "Red",
+    "Blue",
+    "Green",
+    "Pink",
+    "Orange",
+    "Yellow",
+    "Black",
+    "White",
+    "Purple",
+    "Brown",
+    "Cyan",
+    "Lime",
+    "Coral",
+    "Rose",
+    "Banana",
+    "Gray",
+    "Tan",
+    "Maroon"
+  ],
+  "defaultBotNames": [
+    "Bean00",
+    "Bean01",
+    "Bean02",
+    "Bean03",
+    "Bean04",
+    "Bean05",
+    "Bean06",
+    "Bean07",
+    "Bean08",
+    "Bean09",
+    "Bean10",
+    "Bean11",
+    "Bean12",
+    "Bean13",
+    "Bean14"
+  ]
+}

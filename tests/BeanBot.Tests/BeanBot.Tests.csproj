@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <IsPackable>false</IsPackable>
+    <IsTestProject>true</IsTestProject>
+    <RootNamespace>BeanBot.Tests</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.11.1" />
+    <PackageReference Include="xunit" Version="2.9.2" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.8.2" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="8.0.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\BeanBot.Protocol\BeanBot.Protocol.csproj" />
+    <ProjectReference Include="..\..\src\BeanBot.Transport\BeanBot.Transport.csproj" />
+    <ProjectReference Include="..\..\src\BeanBot.Observability\BeanBot.Observability.csproj" />
+    <ProjectReference Include="..\..\src\BeanBot.Accounts\BeanBot.Accounts.csproj" />
+    <ProjectReference Include="..\..\src\BeanBot.Matchmaker\BeanBot.Matchmaker.csproj" />
+    <ProjectReference Include="..\..\src\BeanBot.World\BeanBot.World.csproj" />
+    <ProjectReference Include="..\..\src\BeanBot.Nav\BeanBot.Nav.csproj" />
+    <ProjectReference Include="..\..\src\BeanBot.Behaviors\BeanBot.Behaviors.csproj" />
+    <ProjectReference Include="..\..\src\BeanBot.Host\BeanBot.Host.csproj" />
+    <ProjectReference Include="..\..\src\BeanBot.Commands\BeanBot.Commands.csproj" />
+    <ProjectReference Include="..\..\src\BeanBot.Orchestrator\BeanBot.Orchestrator.csproj" />
+    <ProjectReference Include="..\..\src\BeanBot.Cli\BeanBot.Cli.csproj" />
+  </ItemGroup>
+</Project>

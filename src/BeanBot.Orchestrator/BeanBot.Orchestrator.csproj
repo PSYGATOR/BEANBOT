@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <RootNamespace>BeanBot.Orchestrator</RootNamespace>
+    <AssemblyName>BeanBot.Orchestrator</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BeanBot.Protocol\BeanBot.Protocol.csproj" />
+    <ProjectReference Include="..\BeanBot.Transport\BeanBot.Transport.csproj" />
+    <ProjectReference Include="..\BeanBot.Observability\BeanBot.Observability.csproj" />
+    <ProjectReference Include="..\BeanBot.Accounts\BeanBot.Accounts.csproj" />
+    <ProjectReference Include="..\BeanBot.Matchmaker\BeanBot.Matchmaker.csproj" />
+    <ProjectReference Include="..\BeanBot.World\BeanBot.World.csproj" />
+    <ProjectReference Include="..\BeanBot.Nav\BeanBot.Nav.csproj" />
+    <ProjectReference Include="..\BeanBot.Behaviors\BeanBot.Behaviors.csproj" />
+    <ProjectReference Include="..\BeanBot.Host\BeanBot.Host.csproj" />
+    <ProjectReference Include="..\BeanBot.Commands\BeanBot.Commands.csproj" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="8.0.0" />
+  </ItemGroup>
+</Project>

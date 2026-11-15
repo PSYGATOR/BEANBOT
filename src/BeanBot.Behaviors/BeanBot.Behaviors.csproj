@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <RootNamespace>BeanBot.Behaviors</RootNamespace>
+    <AssemblyName>BeanBot.Behaviors</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BeanBot.World\BeanBot.World.csproj" />
+    <ProjectReference Include="..\BeanBot.Nav\BeanBot.Nav.csproj" />
+  </ItemGroup>
+</Project>

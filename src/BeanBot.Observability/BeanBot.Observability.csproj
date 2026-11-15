@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <RootNamespace>BeanBot.Observability</RootNamespace>
+    <AssemblyName>BeanBot.Observability</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BeanBot.Protocol\BeanBot.Protocol.csproj" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <RootNamespace>BeanBot.Nav</RootNamespace>
+    <AssemblyName>BeanBot.Nav</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BeanBot.World\BeanBot.World.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Maps\Skeld.nav" />
+  </ItemGroup>
+</Project>

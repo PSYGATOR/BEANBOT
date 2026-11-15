@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <RootNamespace>BeanBot.Host</RootNamespace>
+    <AssemblyName>BeanBot.Host</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BeanBot.Protocol\BeanBot.Protocol.csproj" />
+    <ProjectReference Include="..\BeanBot.World\BeanBot.World.csproj" />
+    <ProjectReference Include="..\BeanBot.Observability\BeanBot.Observability.csproj" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="8.0.0" />
+  </ItemGroup>
+</Project>

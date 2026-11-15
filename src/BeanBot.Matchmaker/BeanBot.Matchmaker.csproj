@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <RootNamespace>BeanBot.Matchmaker</RootNamespace>
+    <AssemblyName>BeanBot.Matchmaker</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BeanBot.Protocol\BeanBot.Protocol.csproj" />
+    <ProjectReference Include="..\BeanBot.Transport\BeanBot.Transport.csproj" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="8.0.0" />
+  </ItemGroup>
+</Project>

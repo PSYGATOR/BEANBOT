@@ -1,0 +1,26 @@
+bin/
+obj/
+dist/
+publish/
+TestResults/
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Runtime state, sealed vaults, session locks, and replay logs
+data/locks/
+data/replays/*.jsonl
+data/accounts.json
+data/accounts.json.age
+**/*.age
+**/*.lock
+certs/*.der
+certs/*.sha256
+
+!certs/.gitkeep
+!data/.gitkeep
+!data/replays/.gitkeep
